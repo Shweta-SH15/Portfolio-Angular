@@ -1,0 +1,5 @@
+<h3 [ngClass]="{'dark-mode': darkMode}">Technology Used:</h3>
+<ul [ngClass]="{'dark-mode': darkMode}">
+    <li *ngFor="let tech of technologies">{{ tech.name }}</li>
+</ul>  
+<p>Made By: {{headerInfo.name}} &copy; / {{ cdate | date }}</p>

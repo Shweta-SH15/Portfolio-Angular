@@ -1,0 +1,5 @@
+h1 { font-size: 2.5rem; text-align: center; }
+h2, h3 { text-align: center; color: darkgray; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

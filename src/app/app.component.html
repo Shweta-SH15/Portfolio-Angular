@@ -1,0 +1,25 @@
+<div class="app-container" [ngClass]="{'dark-mode': darkMode}">
+
+  <app-header [headerInfo]="header" [contact]="contacts" [darkMode]="darkMode"></app-header>
+  <app-about [aboutInfo]="aboutInfo"></app-about>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="darkMode" />Dark Mode
+  </label>
+
+
+  <div class="filter-container">Input
+    <input type="text" [(ngModel)]="filteredData" (input)="filterProjects()" />
+  </div>
+
+  <div class="filtered-projects">
+    <ng-container *ngFor="let project of filteredProjects">
+      <app-projects [project]="project"></app-projects>
+    </ng-container>
+  </div>
+
+  <app-contact [contact]="contacts"></app-contact>
+  <app-footer [technologies]="technologies" [headerInfo]="header"> </app-footer>
+
+  <router-outlet></router-outlet>
+</div>

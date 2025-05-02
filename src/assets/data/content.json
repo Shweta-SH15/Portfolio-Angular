@@ -1,0 +1,33 @@
+{
+  "about": {
+    "title": "About Me",
+    "lines": [
+      "I am 20 years old and Pursuing a diploma in Computer Programming at Sheridan College, focusing on key programming skills.",
+      "I engage in both hands-on projects and theoretical studies to ensure a well-rounded learning experience.",
+      "My goal is to establish a robust base in software development principles and practices.",
+      "I'm actively expanding my skills with a range of technologies and development tools.",
+      "Prioritizing practical skills and problem-solving to develop effective software solutions."
+    ]
+  },
+  "contact": [
+    { "platform": "Instagram","link": "https://www.instagram.com/_shivii_04_/" },
+        { "platform": "LinkedIn", "link": "https://www.linkedin.com/in/shweta-patel-742ba5308/" },
+        { "platform": "Youtube", "link": "https://www.youtube.com/" }
+  ],
+  "footer": {
+    "technologies": [
+      { "name": "Angular" },
+      { "name": "TypeScript" },
+      { "name": "JavaScript" },
+      { "name": "HTML/CSS" }
+    ],
+    "sname": "Your Company Name",
+    "cdate": "2024"
+  },
+  "header": {
+    "name": "Shweta Patel",
+    "role": "Software Developer",
+    "motto": "Learning to code so I can finally debug my future!"
+  }
+}
+ 

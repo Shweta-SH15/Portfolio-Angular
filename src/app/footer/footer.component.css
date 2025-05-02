@@ -1,0 +1,31 @@
+h3 {
+    color: black;
+    text-align: left; 
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #ADD8E6, #fa8787);
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5rem;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.dark-mode h3 {
+    color: white;
+    background: linear-gradient(135deg, #555, #777);
+}
+.dark-mode h4 {
+    color: #ccc;
+}
+.dark-mode ul {
+    background-color: #333;
+    border-radius: 5px;
+}
+p {
+    font-size: 20px;
+    text-align: right;
+    background: linear-gradient(135deg, #281729, #93b3ba); 
+}

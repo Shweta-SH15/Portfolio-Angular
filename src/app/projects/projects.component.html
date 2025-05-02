@@ -1,0 +1,17 @@
+<div class="project-card" [ngClass]="{ 'liked-card': isLiked() }" (click)="navigateToProject(project.id)">
+
+    <h3>{{ project.title }}</h3>
+    <h4>{{ project.subtitle }}</h4>
+    <ng-container *ngFor="let img of project.img">
+        <img src="{{img}}" alt="{{project.title}}">
+
+    </ng-container>
+    <p>{{ project.description }}</p>
+
+    <button (click)="toggleLike()" [ngClass]="{ 'liked': isLiked() }">
+        {{ isLiked() ? 'Unlike' : 'Like' }}
+    </button>
+
+    <button (click)="navigateToProject(project.id)">View Details</button>
+    
+</div>z

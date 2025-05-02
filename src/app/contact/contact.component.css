@@ -1,0 +1,49 @@
+h3 {
+    color: black;
+    text-align: left; 
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #ADD8E6, #fa8787);
+    padding: 10px;
+}
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    max-width: 600px; 
+    margin: 0 auto;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap; 
+}
+li {
+    flex: 1; 
+    margin: 0.5rem; 
+    text-align: center; 
+}
+a {
+    color: #007bff;
+    text-decoration: none; 
+    font-size: 1.2rem;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contact-icon {
+    width: 50px; 
+    height: auto;
+    vertical-align: middle; 
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.contact-label {
+    font-weight: bold; 
+    font-size: 1rem; 
+    color: #4655b7;
+}
+div {
+  text-align: center; 
+  margin: 1rem 0; 
+  font-size: 20px;
+}

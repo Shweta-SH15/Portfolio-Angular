@@ -1,0 +1,16 @@
+<h3>Contact Information:</h3>
+
+<nav>
+  <ul>
+      <li *ngFor="let x of contact">
+        <a [href]="x.link">{{ x.platform }}</a>
+      </li>
+    </ul>
+</nav>
+
+<div>
+  <img src="/images/phone3.jpg" alt="Phone icon" class="contact-icon">
+  <span class="contact-label">Phone:</span> +14378821527
+  <img src="/images/email.jpg" alt="Email icon" class="contact-icon">
+  <span class="contact-label">Email:</span> patelshweta255&commat;gmail.com
+</div>

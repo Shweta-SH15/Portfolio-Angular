@@ -1,0 +1,17 @@
+.dark-mode{
+  color: white;
+}
+h2, h3 {
+  color: #a5a7a8;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+h1 {
+  background: linear-gradient(135deg, #e5b9d7, #3d2e50);
+  font-family: 'Times New Roman', serif;
+}
+ul {
+  font-size: 18px;
+  background-color: rgb(240, 236, 236); 
+}

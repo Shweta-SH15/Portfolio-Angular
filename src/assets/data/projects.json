@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Firefox",
+      "subtitle": "A Fast and Secure Browser",
+      "img": [
+        "/images/firefoxsplashpage.JPG"
+      ],
+      "description": "Fire up your web experience with Firefox's smooth and stylish splash page."
+    },
+    {
+      "id": 2,
+      "title": "AI Prompt Generator",
+      "subtitle": "Your Creative Assistant",
+      "img": [
+        "/images/AIprompt.jpeg",
+        "/images/AIprompt.jpeg"
+      ],
+      "description": "Spark your creativity with AI Prompt Creator, where prompts come to life."
+    },
+    {
+      "id": 3,
+      "title": "Casino Crap",
+      "subtitle": "Roll the Dice and Chase Your Fortune",
+      "img": [
+        "/images/casinocrap.jpg",
+        "/images/casinocrap1.jpg"
+      ],
+      "description": "Feel the rush, roll the dice and chase your fortune."
+    },
+    {
+      "id": 4,
+      "title": "Coffee Recommendation",
+      "subtitle": "Find Your Ideal Brew",
+      "img": [
+        "/images/coffee.jpg",
+        "/images/coffee1.jpg"
+      ],
+      "description": "One brew at a time, find your ideal coffee mate, customized to your preferences."
+    },
+    {
+      "id": 5,
+      "title": "My World",
+      "subtitle": "Discover Your Interests",
+      "img": [
+        "/images/myworld.jpg",
+        "/images/cooking.jpg",
+        "/images/listening.jpg",
+        "/images/coding.jpg"
+      ],
+      "description": "Discover your interests in music, coding, and food in one location."
+    }
+  ]
+}
